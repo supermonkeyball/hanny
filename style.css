@@ -1,1 +1,47 @@
+body {
+  margin: 0 auto;
+  font-family: arial;
+  font-size: 1.5em;
+  height: 100%;
+}
 
+#container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  background: transparent;
+}
+
+.iframe {
+  margin: 0;
+  padding: 0;
+  background: none;
+  flex: 3;
+  height: 100vh;
+  border: 0;
+}
+
+.menu {
+  position: fixed;
+}
+
+input[type=button] {
+  all: initial;
+  all: unset;
+  text-decoration: underline;
+}
+
+input[type=button]:hover {
+  color: red;
+}
+
+img {
+  width: 100%;
+}
